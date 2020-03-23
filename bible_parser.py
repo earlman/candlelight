@@ -1,3 +1,5 @@
+# Creates bible.csv for use in application
+
 import csv
 import requests
 import xml.etree.ElementTree as ET
@@ -22,25 +24,33 @@ def parseXML(xmlfile):
         # check if w:r is a 'cvmarker'
         if (x.find("w:rStyle", attrs={"w:val": "cvmarker"})):
 
-            # empty verse dictionary
-            verse = {}
-
-            # append chapter number to the list
-            verse['chNum'] = x.find("w:t").contents[0].encode('utf8')
-
-            # add verse number to list
-            vnum_ref = x.next_sibling
-            verse['vNum'] = vnum_ref.find(
-                "w:t").contents[0].encode('utf8')
-
-            # add verse text to list
-            verse_ref = vnum_ref.next_sibling
-            if verse_ref:
-                verse['text'] = verse_ref.contents[0].text.encode('utf8')
-
-            verses.append(verse)
+            if (buildVerse(x)):
+                verses.append(buildVerse(x))
 
     return verses
+
+
+def buildVerse(cvmarker):
+    # empty verse dictionary
+    verse = {}
+
+    # append chapter number to the list
+    verse['chNum'] = cvmarker.find("w:t").contents[0].encode('utf8')
+
+    # add verse number to list
+    vnum_ref = cvmarker.next_sibling
+    verse['vNum'] = vnum_ref.find(
+        "w:t").contents[0].encode('utf8')
+
+    # add verse text to list
+    verse_ref = vnum_ref.next_sibling
+    if verse_ref:
+        verse['text'] = verse_ref.contents[0].text.encode('utf8')
+    else:
+        # return empty
+        return None
+
+    return verse
 
 
 def savetoCSV(verses, filename):
