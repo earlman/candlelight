@@ -24,8 +24,12 @@ def parseXML(xmlfile):
         # check if w:r is a 'cvmarker'
         if (x.find("w:rStyle", attrs={"w:val": "cvmarker"})):
 
-            if (buildVerse(x)):
-                verses.append(buildVerse(x))
+            # Build verse dictionary using buildVerse()
+            verse = buildVerse(x)
+
+            # Append verse to list if text exists (otherwise skip)
+            if verse:
+                verses.append(verse)
 
     return verses
 
