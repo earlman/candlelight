@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" 
+    xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+    <channel>
+        <atom:link type="application/rss+xml" rel="self" href="https://www.hindustantimes.com/rss/topnews/rssfeed.xml"/>
+        <title>Hindustan Times  - topnews</title>
+        <link>https://www.hindustantimes.com/</link>
+        <description>
+            <![CDATA[News Headlines: Hindustan Times provides exclusive top stories of the day, today headlines from politics, business, technology, photos, videos, latest English news and much more]]>
+        </description>
+        <language>en-US</language>
+        <copyright>
+			Copyright (C) 2020 HT Media Limited. All Rights Reserved.
+        </copyright>
+
+        <docs>https://www.hindustantimes.com/</docs>
+        <image>
+            <title>Hindustan Times  - topnews</title>
+            <link>https://www.hindustantimes.com/</link>
+            <url>
+				https://www.hindustantimes.com/res/img/app-images/HomePageV1/HT-Logo.gif
+            </url>
+
+        </image>
+        <item>
+            <title><![CDATA[Health care workers at highest risk of contracting coronavirus]]></title>
+
+            <description><![CDATA[In India, a drill of preparedness in hospitals across states began on Sunday as Covid-19 numbers crossed 340 and the infection reached 22 states and union territories.]]></description>
+            <link><![CDATA[https://www.hindustantimes.com/india-news/health-care-workers-at-highest-risk-of-contracting-coronavirus/story-epjVprTqalLMfGEfqcCxfM.html]]></link>
+            <guid><![CDATA[https://www.hindustantimes.com/india-news/health-care-workers-at-highest-risk-of-contracting-coronavirus/story-epjVprTqalLMfGEfqcCxfM.html]]></guid>
+            <pubDate><![CDATA[Mon, 23 Mar 2020 12:53:46 GMT]]></pubDate>
+            <media:content url="https://www.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/23/Pictures/coronavirus-suspected-patient-at-gandhi-hospital_760de9d0-6ca0-11ea-ad54-628e87a77846.jpg" medium="image" height="640" width="362"/>
+        </item>
+        <item>
+            <title><![CDATA[Full court meeting today to decide on SC functioning amid coronavirus outbreak]]></title>
+
+            <description><![CDATA[The Supreme Court has been in partial shutdown since March 16, after a notification was issued by the top court on March 13, by which it was decided that only urgent cases will be listed for hearing.]]></description>
+            <link><![CDATA[https://www.hindustantimes.com/india-news/full-court-meeting-to-today-to-decide-on-sc-functioning-amid-coronavirus-outbreak/story-68jeq1B0RfndavtwRb57qO.html]]></link>
+            <guid><![CDATA[https://www.hindustantimes.com/india-news/full-court-meeting-to-today-to-decide-on-sc-functioning-amid-coronavirus-outbreak/story-68jeq1B0RfndavtwRb57qO.html]]></guid>
+            <pubDate><![CDATA[Mon, 23 Mar 2020 12:52:26 GMT]]></pubDate>
+            <media:content url="https://www.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/23/Pictures/supreme-court_86b14d72-6c9b-11ea-9530-7febd198d354.jpg" medium="image" height="640" width="362"/>
+        </item>
+        <item>
+            <title><![CDATA[As coronavirus cases surge in India, 40,000 ventilators for 1.3bn people a worry]]></title>
+
+            <description><![CDATA[The coronavirus attacks people’s lungs, in some cases compromising their ability to breathe as they develop pneumonia. Ventilators, which deliver air to the lungs through a tube placed in the windpipe, are crucial to keep these patients alive. ]]></description>
+            <link><![CDATA[https://www.hindustantimes.com/india-news/as-coronavirus-cases-surge-in-india-40-000-ventilators-for-1-3bn-people-a-worry/story-2My7VOoMuqHpGmvosK3tvN.html]]></link>
+            <guid><![CDATA[https://www.hindustantimes.com/india-news/as-coronavirus-cases-surge-in-india-40-000-ventilators-for-1-3bn-people-a-worry/story-2My7VOoMuqHpGmvosK3tvN.html]]></guid>
+            <pubDate><![CDATA[Sun, 22 Mar 2020 11:57:39 GMT]]></pubDate>
+            <media:content url="https://www.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/23/Pictures/kolkata-janta-curfew-covid0-19_230ff848-6c98-11ea-9530-7febd198d354.jpg" medium="image" height="640" width="362"/>
+        </item>
+        <item>
+            <title><![CDATA['Mother': PM Modi acknowledges mother's efforts in fight against Coronavirus]]></title>
+
+            <description><![CDATA[The video of Hiraba beating a plate while sitting on a chair went viral and the prime minister himself tweeted to acknowledge her participation and that of several other “mothers”.]]></description>
+            <link><![CDATA[https://www.hindustantimes.com/india-news/mother-pm-modi-acknowledges-mother-s-efforts-in-fight-against-coronavirus/story-4GVckkMwqStyMWV699r1FL.html]]></link>
+            <guid><![CDATA[https://www.hindustantimes.com/india-news/mother-pm-modi-acknowledges-mother-s-efforts-in-fight-against-coronavirus/story-4GVckkMwqStyMWV699r1FL.html]]></guid>
+            <pubDate><![CDATA[Sun, 22 Mar 2020 06:44:47 GMT]]></pubDate>
+            <media:content url="https://www.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/23/Pictures/_e02d4358-6c6c-11ea-963c-5f43816952e0.jpg" medium="image" height="640" width="362"/>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus updates: Full list of 80 districts under complete lockdown due to C...]]></title>
+
+            <description><![CDATA[Seventy-five districts across 22 states and Union Territories where positive coronavirus cases have been reported will be under a complete lockdown till March 31.]]></description>
+            <link><![CDATA[https://www.hindustantimes.com/india-news/coronavirus-updates-full-list-of-75-districts-under-complete-lockdown-due-to-covid-19/story-0fe6csIo0NsLC6wKoEPwOM.html]]></link>
+            <guid><![CDATA[https://www.hindustantimes.com/india-news/coronavirus-updates-full-list-of-75-districts-under-complete-lockdown-due-to-covid-19/story-0fe6csIo0NsLC6wKoEPwOM.html]]></guid>
+            <pubDate><![CDATA[Sun, 22 Mar 2020 05:10:29 GMT]]></pubDate>
+            <media:content url="https://www.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/22/Pictures/india-virus-outbreak_685881d4-6c45-11ea-9fca-2c342717c29e.jpg" medium="image" height="640" width="362"/>
+        </item>
+        <item>
+            <title><![CDATA[India enters partial lockdown: Top 5 things to keep in mind]]></title>
+
+            <description><![CDATA[Several states have announced total lockdown and several others have locked down certain areas most affected by Sars-Cov-2. It is therefore important to understand what it means for the residents.]]></description>
+            <link><![CDATA[https://www.hindustantimes.com/india-news/india-enters-partial-lockdown-top-5-things-to-keep-in-mind/story-I279g0LXu1jN1sQkZqXKUK.html]]></link>
+            <guid><![CDATA[https://www.hindustantimes.com/india-news/india-enters-partial-lockdown-top-5-things-to-keep-in-mind/story-I279g0LXu1jN1sQkZqXKUK.html]]></guid>
+            <pubDate><![CDATA[Sun, 22 Mar 2020 04:21:40 GMT]]></pubDate>
+            <media:content url="https://www.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/22/Pictures/_d4ac80fc-6c58-11ea-963c-5f43816952e0.jpg" medium="image" height="640" width="362"/>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus update: BMC identifies 10 people singer Kanika Kapoor met in Mumbai]]></title>
+
+            <description><![CDATA[Civic officials said they have formed two special teams to track these people to check for possible coronavirus symptoms.]]></description>
+            <link><![CDATA[https://www.hindustantimes.com/india-news/bmc-identifies-10-people-singer-kanika-kapoor-met-in-mumbai/story-GyHeLh7gX3RqPshHq5k7rL.html]]></link>
+            <guid><![CDATA[https://www.hindustantimes.com/india-news/bmc-identifies-10-people-singer-kanika-kapoor-met-in-mumbai/story-GyHeLh7gX3RqPshHq5k7rL.html]]></guid>
+            <pubDate><![CDATA[Sun, 22 Mar 2020 02:53:02 GMT]]></pubDate>
+            <media:content url="https://www.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/22/Pictures/hindustan-exclusive-sepetember-september-actress-kapoor-bollywood_9665f70c-6c43-11ea-9fca-2c342717c29e.JPG" medium="image" height="640" width="362"/>
+        </item>
+        <item>
+            <title><![CDATA['Virat Kohli is the best batsman in the world':&thinsp;West Indies legend lauds Indian...]]></title>
+
+            <description><![CDATA[Speaking in an interview to Sportstar, Chanderpaul picked Kohli as the best batsman in the world. “Obviously, it’s Virat Kohli. He has been working on all the aspects of his game, and the results are showing,” he said.]]></description>
+            <link><![CDATA[https://www.hindustantimes.com/cricket/virat-kohli-is-the-best-batsman-in-the-world-west-indies-legend-lauds-indian-skipper/story-E2mUPrJQmKfzhHEM49ZVjK.html]]></link>
+            <guid><![CDATA[https://www.hindustantimes.com/cricket/virat-kohli-is-the-best-batsman-in-the-world-west-indies-legend-lauds-indian-skipper/story-E2mUPrJQmKfzhHEM49ZVjK.html]]></guid>
+            <pubDate><![CDATA[Sun, 22 Mar 2020 12:13:05 GMT]]></pubDate>
+            <media:content url="https://www.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/22/Pictures/ind-aus-3rd-odi-cricket-match_a2121f44-6c35-11ea-963c-5f43816952e0.jpg" medium="image" height="640" width="362"/>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus outbreak: Politics in the times of a pandemic | HT&thinsp;Editorial]]></title>
+
+            <description><![CDATA[Constructive criticism is good. Beyond that, it is time for unity]]></description>
+            <link><![CDATA[https://www.hindustantimes.com/editorials/politics-in-the-times-of-a-pandemic/story-Qk325IofFtuRZlF0F98GwI.html]]></link>
+            <guid><![CDATA[https://www.hindustantimes.com/editorials/politics-in-the-times-of-a-pandemic/story-Qk325IofFtuRZlF0F98GwI.html]]></guid>
+            <pubDate><![CDATA[Thu, 19 Mar 2020 11:29:40 GMT]]></pubDate>
+            <media:content url="https://www.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/19/Pictures/coronavirus-scare-in-hyderabad_0999f9e8-69ca-11ea-8a5c-cb364e4c5304.jpg" medium="image" height="640" width="362"/>
+        </item>
+        <item>
+            <title><![CDATA[Dealing with the human condition]]></title>
+
+            <description><![CDATA[Uncertainty is giving rise to anxiety, guilt, shame, panic. Respond better]]></description>
+            <link><![CDATA[https://www.hindustantimes.com/editorials/dealing-with-the-human-condition/story-0M6ImRe1QiN8psmSjWPmzL.html]]></link>
+            <guid><![CDATA[https://www.hindustantimes.com/editorials/dealing-with-the-human-condition/story-0M6ImRe1QiN8psmSjWPmzL.html]]></guid>
+            <pubDate><![CDATA[Thu, 19 Mar 2020 12:27:02 GMT]]></pubDate>
+            <media:content url="https://www.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/16/Pictures/precautions-for-coronavirus-outbreak-in-delhi_0a95df28-6769-11ea-9fca-2c342717c29e.jpg" medium="image" height="640" width="362"/>
+        </item>
+        <item>
+            <title><![CDATA[Use the Covid crisis to spur systemic changes]]></title>
+
+            <description><![CDATA[Liquidity measures, spike in health care funding, better governance, and multilateralism can help India tide over]]></description>
+            <link><![CDATA[https://www.hindustantimes.com/analysis/use-the-covid-crisis-to-spur-systemic-changes/story-4AQPacZtY0iK6MyckIxvPO.html]]></link>
+            <guid><![CDATA[https://www.hindustantimes.com/analysis/use-the-covid-crisis-to-spur-systemic-changes/story-4AQPacZtY0iK6MyckIxvPO.html]]></guid>
+            <pubDate><![CDATA[Thu, 19 Mar 2020 12:26:19 GMT]]></pubDate>
+            <media:content url="https://www.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/19/Pictures/measures-to-prevent-coronavirus-pandemic-spread_938babc6-69c8-11ea-8a5c-cb364e4c5304.jpg" medium="image" height="640" width="362"/>
+        </item>
+        <item>
+            <title><![CDATA[The legal hole in battling Covid-19]]></title>
+
+            <description><![CDATA[The Epidemic Diseases Act of 1897 is inadequate to tackle public health emergencies. Update it]]></description>
+            <link><![CDATA[https://www.hindustantimes.com/analysis/the-legal-hole-in-battling-covid-19/story-s0VFHssIu68N01oHs5LgDI.html]]></link>
+            <guid><![CDATA[https://www.hindustantimes.com/analysis/the-legal-hole-in-battling-covid-19/story-s0VFHssIu68N01oHs5LgDI.html]]></guid>
+            <pubDate><![CDATA[Thu, 19 Mar 2020 12:25:36 GMT]]></pubDate>
+            <media:content url="https://www.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/19/Pictures/coronvairus_f29dcba0-69da-11ea-8a5c-cb364e4c5304.jpg" medium="image" height="640" width="362"/>
+        </item>
+        <item>
+            <title><![CDATA[China's decision to expel US journalists is wrong |&thinsp;HT&thinsp;Editorial]]></title>
+
+            <description><![CDATA[At a time when the free flow of information is critical, geopolitical rifts are deepening]]></description>
+            <link><![CDATA[https://www.hindustantimes.com/editorials/china-s-decision-to-expel-us-journalists-is-wrong-ht-editorial/story-EzWdLDop0CHEYoCNn45hWP.html]]></link>
+            <guid><![CDATA[https://www.hindustantimes.com/editorials/china-s-decision-to-expel-us-journalists-is-wrong-ht-editorial/story-EzWdLDop0CHEYoCNn45hWP.html]]></guid>
+            <pubDate><![CDATA[Thu, 19 Mar 2020 01:45:07 GMT]]></pubDate>
+            <media:content url="https://www.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/14/Pictures/xi-jinping-in-wuhan_24d7af7c-65c2-11ea-a22d-086e24190356.jpg" medium="image" height="640" width="362"/>
+        </item>
+        <item>
+            <title><![CDATA[Covid-19: Draw up a new economic plan |&thinsp;HT&thinsp;Editorial]]></title>
+
+            <description><![CDATA[Covid-19 will hurt incomes across the board. Be proactive]]></description>
+            <link><![CDATA[https://www.hindustantimes.com/editorials/covid-19-draw-up-a-new-economic-plan-ht-editorial/story-oHNO0mYheTizP62sD2eLxO.html]]></link>
+            <guid><![CDATA[https://www.hindustantimes.com/editorials/covid-19-draw-up-a-new-economic-plan-ht-editorial/story-oHNO0mYheTizP62sD2eLxO.html]]></guid>
+            <pubDate><![CDATA[Wed, 18 Mar 2020 01:11:32 GMT]]></pubDate>
+            <media:content url="https://www.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/14/Pictures/delhi-markets-covid-19-tourism-impact_c746500e-661e-11ea-a22d-086e24190356.jpg" medium="image" height="640" width="362"/>
+        </item>
+        <item>
+            <title><![CDATA[How Kerala is battling Covid-19, writes Pinarayi Vijayan]]></title>
+
+            <description><![CDATA[With the initial cases, it was able to prevent transmission. There is now a renewed challenge]]></description>
+            <link><![CDATA[https://www.hindustantimes.com/analysis/how-kerala-is-battling-covid-19-writes-pinarayi-vijayan/story-qdVWhfansxcW4akgyq4qcM.html]]></link>
+            <guid><![CDATA[https://www.hindustantimes.com/analysis/how-kerala-is-battling-covid-19-writes-pinarayi-vijayan/story-qdVWhfansxcW4akgyq4qcM.html]]></guid>
+            <pubDate><![CDATA[Wed, 18 Mar 2020 01:08:21 GMT]]></pubDate>
+            <media:content url="https://www.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/03/18/Pictures/coronavirus-department-infection-hindustan-government-screening-prevention_4eeac3b0-68fd-11ea-9fca-2c342717c29e.jpg" medium="image" height="640" width="362"/>
+        </item>
+    </channel>
+</rss>
