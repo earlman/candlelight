@@ -18,6 +18,11 @@ def parseXML(xmlfile):
     # find w:r tags
     wr = soup.find_all('w:r')
 
+    # Set up iterator to get the current book
+    # sort of a hacky method but the alternative will take way too long i think
+    bookList = getBooks(xmlfile)
+    currentBook = 0
+
     # iterate w:r items
     for x in wr:
 
@@ -28,10 +33,38 @@ def parseXML(xmlfile):
             verse = buildVerse(x)
 
             # Append verse to list if text exists (otherwise skip)
-            if verse:
-                verses.append(verse)
+            if (verse) and (verse['text'] != ' '):
 
+                # iterate currentBook on 1:1
+                if (
+                    (verse['chNum'] == '1') and
+                    (verse['vNum'] == '1\xe2\x80\xaf')
+                ):
+                    currentBook += 1
+
+                # Set 'book' using iterator
+                verse['book'] = bookList[currentBook]
+
+                # Add to array
+                verses.append(verse)
     return verses
+
+
+def getBooks(xmlfile):
+
+    books = []
+
+    # create soup
+    with open(xmlfile) as fp:
+        soup = BeautifulSoup(fp, 'xml')
+
+    wr = soup.find_all("w:rStyle", attrs={"w:val": "Bookmarker"})
+
+    for x in wr:
+        book = x.parent.next_sibling
+        books.append(book.string.encode('utf8'))
+
+    return books
 
 
 def buildVerse(cvmarker):
@@ -60,7 +93,7 @@ def buildVerse(cvmarker):
 def savetoCSV(verses, filename):
 
     # specifying the fields for csv file
-    fields = ['chNum', 'vNum', 'text']
+    fields = ['book', 'chNum', 'vNum', 'text']
 
     # writing to csv file
     with open(filename, 'w') as csvfile:
@@ -83,8 +116,6 @@ def main():
 
     # parse xml file
     verses = parseXML(fileUrl)
-
-    # print(verses)
 
     # store news items in a csv file
     savetoCSV(verses, 'bible.csv')
