@@ -33,7 +33,7 @@ def parseXML(xmlfile):
             verse = buildVerse(x)
 
             # Append verse to list if text exists (otherwise skip)
-            if (verse) and (verse['text'] != ' '):
+            if (verse['text']) and (verse['text'] != ' '):
 
                 # iterate currentBook on 1:1
                 if (
@@ -85,7 +85,7 @@ def buildVerse(cvmarker):
         verse['text'] = verse_ref.contents[0].text.encode('utf8')
     else:
         # return empty
-        return None
+        verse['text'] = None
 
     return verse
 
