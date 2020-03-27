@@ -1,5 +1,7 @@
 import csv
 import random
+import re
+from helpers import getUrl
 
 bible = "bible.csv"
 
@@ -7,13 +9,22 @@ bible = "bible.csv"
 
 
 def randomLine():
+    
+    # Get line from CSV
     with open(bible) as f:
         reader = csv.reader(f)
         chosen_row = random.choice(list(reader))
-    return chosen_row
+    
+    # Parse line
+    verse = {}
+    verse["book"]   = chosen_row[0]
+    verse["chNum"]  = chosen_row[1]
+    verse["vNum"]   = chosen_row[2]
+    verse["text"]   = chosen_row[3]
+    
+    return verse
 
 
-print(randomLine())
-print(randomLine())
-print(randomLine())
-print(randomLine())
+
+verse = randomLine()
+print(getUrl(verse["book"], verse["chNum"]))

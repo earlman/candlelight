@@ -1,5 +1,4 @@
 # Creates bible.csv for use in application
-
 import csv
 import requests
 import xml.etree.ElementTree as ET
@@ -109,16 +108,17 @@ def savetoCSV(verses, filename):
 
 
 def main():
-
     # url of xml
     fileUrl = 'C:/Projects/bible (python)/eng-web_word/eng-web_word.xml'
     # fileUrl = 'C:/Projects/bible (python)/samplerssfeed.xml'
 
+    print(getBooks(fileUrl))
+
     # parse xml file
-    verses = parseXML(fileUrl)
+    # verses = parseXML(fileUrl)
 
     # store news items in a csv file
-    savetoCSV(verses, 'bible.csv')
+    # savetoCSV(verses, 'bible.csv')
 
 
 if __name__ == "__main__":
