@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candlelight</title>
+</head>
+<body>
+    <div class="verse-container">
+        <p class="verse">
+            {{verse["text"]}}
+        </p>
+        <div class="location">
+            {{verse["book"]}} {{verse["chNum"]}}: {{verse["vNum"]}}
+        </div>
+        <div class="url">
+            {{verse["url"]}}
+        </div>
+        <img src="{{ qrcode(verse['url']) }}">
+    </div>
+</body>
+</html>
